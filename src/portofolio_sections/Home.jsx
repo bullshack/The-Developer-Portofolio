@@ -11,8 +11,7 @@ const Home = () => {
         </Title>
       </Col>
       <P>
-        I build desktop and mobile web apps that provide intuitive and
-        pixel-perfect user interfaces. <br />
+        I build web Applications<br />
         <span style={{ fontStyle: "italic" }}>
           "Chase your passion, not your pension."
         </span>

@@ -14,7 +14,7 @@ const StayTuned = () => {
             className="col-md-5 col-8 mb-5"
             style={{ textAlign: "center", fontWeight: 600 }}
           >
-            Although not looking for a job at the moment, I am open to any new
+            I am open to any new
             opportunities.
           </p>
           <form className="col-lg-6">
@@ -24,13 +24,13 @@ const StayTuned = () => {
                   for="inputEmail4"
                   style={{ color: "#73737d", fontWeight: 600 }}
                 >
-                  EMail
+                  Email
                 </label>
                 <input
                   type="email"
                   class="form-control"
                   id="inputEmail4"
-                  placeholder="Adresse Email"
+                  placeholder="Email id"
                 />
               </div>
               <div class="form-group col-md-6">
@@ -38,12 +38,12 @@ const StayTuned = () => {
                   style={{ color: "#73737d", fontWeight: 600 }}
                   for="inputText"
                 >
-                  Nom
+                  Name
                 </label>
                 <input
                   type="text"
                   class="form-control"
-                  placeholder="Nom complet"
+                  placeholder="Name"
                 ></input>
               </div>
             </div>
@@ -52,7 +52,7 @@ const StayTuned = () => {
                 style={{ color: "#73737d", fontWeight: 600 }}
                 for="exampleFormControlTextarea1"
               >
-                Laisser un message
+                Leave a suggestion/message
               </label>
               <textarea
                 class="form-control"
@@ -65,7 +65,7 @@ const StayTuned = () => {
               type="button"
               className="btn mt-4 mt-sm-0"
             >
-              Envoyer
+              submit
             </button>
           </form>
         </Panel>

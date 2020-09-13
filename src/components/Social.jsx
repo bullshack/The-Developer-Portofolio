@@ -5,7 +5,10 @@ import {
   FaLinkedinIn,
   FaTwitter,
   FaStackOverflow,
+  FaSteamSymbol,
+  FaGooglePlusG
 } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 class Social extends React.Component {
   render() {
@@ -16,32 +19,46 @@ class Social extends React.Component {
     return (
       <SocialBar>
         <a
-          href="https://github.com/philippetedajo"
+          href="https://github.com/zephyr007"
           rel="noopener noreferrer"
           target="_blank"
         >
           <Github size={sizeUp} className={mbUp} color={fillColor} />
         </a>
         <a
-          href="https://www.linkedin.com/in/philippe-tedajo-aa1a298b/"
+          href="https://www.linkedin.com/in/nitindhemiwal/"
           rel="noopener noreferrer"
           target="_blank"
         >
           <Linkedin size={sizeUp} className={mbUp} color={fillColor} />
         </a>
         <a
-          href="https://twitter.com/Zambou21 "
+          href="https://steamcommunity.com/id/dhemiwalnitin/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Steam size={sizeUp} className={mbUp} color={fillColor} />
+        </a>
+        <a
+          href="https://twitter.com/Dhemiwalnitin "
           rel="noopener noreferrer"
           target="_blank"
         >
           <Twitter size={sizeUp} className={mbUp} color={fillColor} />
         </a>
         <a
-          href="https://stackoverflow.com/users/story/11538563"
+          href="mailto:dhemiwal.nitin@gmail.com"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <Stackoverflow size={sizeUp} className={mbUp} color={fillColor} />
+          <Google size={sizeUp} className={mbUp} color={fillColor} />
+        </a>
+        <a
+          href="https://leetcode.com/nitindhemiwal/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <LeetCode size={sizeUp} className={mbUp} color={fillColor} />
         </a>
       </SocialBar>
     );
@@ -108,6 +125,45 @@ const Twitter = styled(FaTwitter)`
   }
 `;
 const Stackoverflow = styled(FaStackOverflow)`
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    transition: all 0.3s;
+    transform: scale(1.3) rotate(360deg);
+  }
+
+  @media (max-width: 580px) {
+    color: #73737d !important;
+    margin-right: 0.5rem;
+  }
+`;
+const Steam = styled(FaSteamSymbol)`
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    transition: all 0.3s;
+    transform: scale(1.3) rotate(360deg);
+  }
+
+  @media (max-width: 580px) {
+    color: #73737d !important;
+    margin-right: 0.5rem;
+  }
+`;
+const Google = styled(FaGooglePlusG)`
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    transition: all 0.3s;
+    transform: scale(1.3) rotate(360deg);
+  }
+
+  @media (max-width: 580px) {
+    color: #73737d !important;
+    margin-right: 0.5rem;
+  }
+`;
+const LeetCode = styled(SiLeetcode)`
   cursor: pointer;
   transition: all 0.3s;
   &:hover {

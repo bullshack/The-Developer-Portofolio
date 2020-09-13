@@ -23,7 +23,7 @@ class App extends React.Component {
       >
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Philippe Tedajo</title>
+          <title>Nitin Dhemiwal</title>
         </Helmet>
         <GlobalStyles />
         <Portofolio

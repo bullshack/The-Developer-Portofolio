@@ -15,7 +15,7 @@ class Work extends React.Component {
   }
 
   componentDidMount() {
-    const url = "https://api.github.com/users/philippetedajo/repos";
+    const url = "https://api.github.com/users/zephyr007/repos";
     this.setState({ loading: true });
     fetch(url)
       .then((res) => res.json())

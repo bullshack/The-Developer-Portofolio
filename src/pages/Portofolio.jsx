@@ -10,8 +10,8 @@ class Portofolio extends React.Component {
         onTheme={this.props.onThemeChange}
       >
         <Home />
-        <Work />
-        <WebRealisation />
+        {/* <Work />
+        <WebRealisation />  */}
         <StayTuned />
       </Layout>
     );

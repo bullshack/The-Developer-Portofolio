@@ -26,7 +26,7 @@ class Repo extends React.Component {
               </Card.Text>
               <Card.Text>
                 <a
-                  href="https://github.com/philippetedajo"
+                  href="https://github.com/zephyr007"
                   rel="noopener noreferrer"
                   target="_blank"
                   className="mr-2"

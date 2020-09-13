@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import ProfilePicture from "../pictures/profile.png";
-import { FiToggleRight, FiToggleLeft } from "react-icons/fi";
+import ProfilePicture from "../pictures/Profile.jpeg";
+import { FiMoon, FiSun } from "react-icons/fi";
 import { BsDownload } from "react-icons/bs";
 import { Button } from "react-bootstrap";
 
@@ -9,13 +9,13 @@ class Header extends React.Component {
   render() {
     const themeSwitch =
       this.props.onALLthemeProps === "light" ? (
-        <FiToggleRight
+        <FiMoon
           style={{ cursor: "pointer", color: "#73737d" }}
           onClick={this.props.onTheming}
           size={30}
         />
       ) : (
-        <FiToggleLeft
+        <FiSun
           style={{ cursor: "pointer", color: "#73737d" }}
           onClick={this.props.onTheming}
           size={30}
@@ -27,15 +27,15 @@ class Header extends React.Component {
         <Head>
           <Box>
             <a
-              href="https://github.com/philippetedajo"
+              href="https://github.com/zephyr007"
               rel="noopener noreferrer"
               target="_blank"
             >
               <Profile alt="profile" src={ProfilePicture} />
             </a>
             <div>
-              <Name className="font-name">Philippe Tedajo</Name>
-              <Subtitle>Front-end Developer</Subtitle>
+              <Name className="font-name">Nitin Dhemiwal</Name>
+              <Subtitle>Student Developer</Subtitle>
             </div>
           </Box>
         </Head>
@@ -43,9 +43,15 @@ class Header extends React.Component {
           <Switcher>{themeSwitch} </Switcher>
         </SwitcherContainer>
         <ShowResume>
+            <a
+              href="https://drive.google.com/file/d/1LvXUOyj5LiWHCDtQp9boYGGlM1ewLTt2/view?usp=sharing"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
           <Btn>
             Resume <BsDownload className="ml-2" />
           </Btn>
+          </a>
         </ShowResume>
       </HeaderContainer>
     );
