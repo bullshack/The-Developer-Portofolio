@@ -24,8 +24,6 @@ If you would like to download the code and try it for yourself:
 
 <!-- ## 🐾 Author
 
-[Tedajo Philippe](https://github.com/philippetedajo)
-
 ## 🌴 License
 
 [MIT](https://github.com/philippetedajo/The-Developer-Portofolio/blob/master/LICENSE)
